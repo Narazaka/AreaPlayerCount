@@ -1,6 +1,6 @@
 # Area Player Count
 
-desc
+コライダー内のプレイヤーを数えてText/TextMeshPro/TextMeshProUGUIに人数をセット
 
 ## Install
 
@@ -16,7 +16,9 @@ https://github.com/Narazaka/AreaPlayerCount/releases/latest から `net.narazaka
 
 ## Usage
 
-TODO
+コライダーに加えて`Area Player Count`をAdd Component。
+
+プレイヤーの足下で判定しているので床より少し下側にまでコライダー範囲をもたせておくとよい。
 
 ## License
 
